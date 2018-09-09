@@ -1,7 +1,8 @@
 # codebass-overlay
 
-Personal Gentoo Overlay
+This is a personal Gentoo Linux [ebuild repository](https://wiki.gentoo.org/wiki/Ebuild_repository).
+To enable our overlay without the need for additional software, simply run (as root):
 
-## Usage
-
-Copy `codebass-overlay.conf` from this repository into `/etc/portage/repos.conf`
+```
+wget https://raw.githubusercontent.com/codebass/codebass-overlay/master/metadata/codebass.conf -O /etc/portage/repos.conf/codebass.conf
+```
